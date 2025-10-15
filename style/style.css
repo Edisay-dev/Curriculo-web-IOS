@@ -11,12 +11,27 @@ body{
     line-height: 1.5;
 }
 
+.nome {
+  position: relative;
+  margin-left: 25px;
+  margin-bottom: 1.5%;
+  background-color: rgb(1, 1, 29);
+  height: 29.691211%;
+  width: 220px;
+  color: white;
+  letter-spacing: 2.5px;
+}
+
 h3{
     border-bottom:2px solid #1e373a;
 }
 ul{
     margin-left: 20px;
 }
+
+a{
+	color:#000
+	}
 
 .curriculo {
     width: 800px;
@@ -29,16 +44,9 @@ ul{
 
 .rodape{
     text-align: center;
-    color: white;
 }
 
-#nome {
-    position: relative;
-    margin-left: 25px;
-    margin-bottom: 1.5%;
-    background-color: rgb(1, 1, 29);
-    height: 29.691211%;
-    width: 220px;
-    color: white;
-    letter-spacing: 2.5px;
+h1{
+  color:  #1e373a;
 }
+
