@@ -13,11 +13,11 @@ body{
 
 .nome {
   position: relative;
-  margin-left: 25px;
+  margin-left: 30px;
   margin-bottom: 1.5%;
   background-color: rgb(1, 1, 29);
-  height: 29.691211%;
-  width: 220px;
+  height: 35px;
+  width: 320px;
   color: white;
   letter-spacing: 2.5px;
 }
@@ -44,9 +44,6 @@ a{
 
 .rodape{
     text-align: center;
-}
-
-h1{
-  color:  #1e373a;
+    color: white;
 }
 
