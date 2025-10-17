@@ -31,7 +31,7 @@
   /* Aqui é a folha do curriculo */
   .curriculo {
     position: relative;
-    width: 800px;
+    width: 70%;
     background-color: white;
     margin: 40px auto;
     padding: 40px;
@@ -44,7 +44,7 @@
    
     color: white;
     height: 250px;
-    width: 350px;
+    width: 75%;
     border: 15px solid #000038;
     background-color: #000038;
     padding: 20px;
