@@ -1,46 +1,89 @@
+/* Pagina Web */
 * {
-    margin: 0px; 
+    margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-body{
-    background-color: #3a6166;
-    color: black;
+    font-family: 'Oswald', sans-serif;}
+  
+  /* Tags */
+   body{ 
+    background-color:#000027;
+    color: #000038;
     line-height: 1.5;
-}
-
-.nome {
-    background-color: #000000;
-    color: #ffffff;
-    border-radius: 10px;
-    padding: 5px;
-    text-align: center;
-}
-
-h3{
-    border-bottom:2px solid #1e373a;
-}
-ul{
-    margin-left: 20px;
-}
-
-a{
-	color:#000
-	}
-
-.curriculo {
+  }
+  h1{
+    font-size: 45px;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 2px;
+  
+  }
+  a{
+    text-decoration: none;
+    color: #000038; }
+  
+  ul{
+    margin-left: 32px ;
+    margin-bottom: 15px;
+  }
+  
+  /* Classes */
+  
+  /* Aqui é a folha do curriculo */
+  .curriculo {
+    position: relative;
     width: 800px;
     background-color: white;
     margin: 40px auto;
     padding: 40px;
     border-radius: 10px;
     box-shadow: 8px 8px 10px black;
-}
-
-.rodape{
+  }
+  
+   /* Aqui é o bloco azul*/
+  .apresentacao {
+   
+    color: white;
+    height: 250px;
+    width: 350px;
+    border: 15px solid #000038;
+    background-color: #000038;
+    padding: 20px;
+    margin-top: -40px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    margin-left: 0px;
+  }
+  
+  .profissao {
+    font-size: 20px;
+  }
+  
+  /* aqui estão as demais informações dentro do curriculo */
+  .coluna{
+    width: 80%;
+    height: 60%;
+    margin-left: 32px;
+    }
+  
+  .titulo {
+    width: 160px;
+    color: #000038;
+    font-family: 'Oswald', sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+    letter-spacing: 2px;
+  }
+  
+  .conteudo{
+    font-size: 16px;
+    color: #000038;
+    margin-bottom: 15px;
+    letter-spacing: 2px;
+  }
+  
+  .rodape{
     text-align: center;
     color: white;
-}
-
+  }
+  
+  
